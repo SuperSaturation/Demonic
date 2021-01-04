@@ -10,7 +10,7 @@
     "modid": "demonic",
     "modName": "Demonic",
     "version": "1.0.0",
-    "author": "Þðà, MCreator",
+    "author": "Xponer2, ",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -19,6 +19,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.demonic",
     "lockBaseModFiles": false
   },
