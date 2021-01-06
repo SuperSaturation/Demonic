@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "demonic:block/toxic_wood"
+    },
+    "facing=north": {
+      "model": "demonic:block/toxic_wood"
+    },
+    "facing=east": {
+      "model": "demonic:block/toxic_wood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "demonic:block/toxic_wood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "demonic:block/toxic_wood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "demonic:block/toxic_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

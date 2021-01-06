@@ -18,9 +18,4 @@ authors="Xponer2, "
 
 
 
-[[dependencies.demonic]]
-    modId="geckolib"
-    mandatory=false
-    ordering="NONE"
-    side="BOTH"
 
