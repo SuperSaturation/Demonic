@@ -2,9 +2,9 @@
   "_fv": 13,
   "_type": "tab",
   "definition": {
-    "name": "Demonic Blocks",
+    "name": "Demonic",
     "icon": {
-      "value": "CUSTOM:ToxicWood"
+      "value": "CUSTOM:BloodBall"
     },
     "showSearch": false
   }

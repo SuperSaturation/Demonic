@@ -4,7 +4,7 @@
     {
       "name": "ToxicWood",
       "type": "block",
-      "sortid": 1,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "Torf",
       "type": "block",
-      "sortid": 2,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "DemonicBlocks",
       "type": "tab",
-      "sortid": 3,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "Book",
       "type": "item",
-      "sortid": 4,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "Book1",
       "type": "item",
-      "sortid": 5,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "BookRightClickedInAir",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -66,7 +66,7 @@
     {
       "name": "Gui1",
       "type": "gui",
-      "sortid": 7,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -75,7 +75,7 @@
     {
       "name": "Book1RightClickedInAir",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -104,17 +104,211 @@
           }
         ]
       }
+    },
+    {
+      "name": "BloodBottle",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle"
+    },
+    {
+      "name": "BloodBottle1",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_1"
+    },
+    {
+      "name": "BloodBottle2",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_2"
+    },
+    {
+      "name": "BloodBottle3",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_3"
+    },
+    {
+      "name": "BloodBottle4",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_4"
+    },
+    {
+      "name": "BloodBottle5",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_5"
+    },
+    {
+      "name": "Gui2",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_2"
+    },
+    {
+      "name": "IronKnife",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_knife"
+    },
+    {
+      "name": "IronKnifeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_knife_recipe"
+    },
+    {
+      "name": "IronKnifeRightClickedInAir",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_knife_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodBall",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_ball"
+    },
+    {
+      "name": "BloodBallRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_ball_recipe"
+    },
+    {
+      "name": "HotTableGui",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hot_table_gui"
+    },
+    {
+      "name": "HotTable",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hot_table"
+    },
+    {
+      "name": "HotTableUpdateTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hot_table_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taken",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "taken",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taken1",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "taken_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.demonic.hot_table": "Hot Table",
+      "item.demonic.blood_bottle": "Blood Bottle",
+      "item.demonic.blood_bottle_4": "Blood Bottle",
+      "item.demonic.blood_bottle_5": "Blood Bottle",
+      "item.demonic.blood_ball": "Blood Ball",
+      "item.demonic.blood_bottle_1": "Blood Bottle",
+      "item.demonic.blood_bottle_2": "Blood Bottle",
+      "block.demonic.toxic_wood": "Toxic Wood",
+      "item.demonic.blood_bottle_3": "Blood Bottle",
       "block.demonic.torf": "Torf",
-      "item.demonic.book_1": "Book 1",
+      "item.demonic.iron_knife": "Iron Knife",
+      "item.demonic.book_1": "Book",
       "item.demonic.book": "Book",
-      "itemGroup.tabdemonic_blocks": "Demonic Blocks",
-      "block.demonic.toxic_wood": "Toxic Wood"
+      "itemGroup.tabdemonic_blocks": "Demonic"
     }
   },
   "workspaceSettings": {

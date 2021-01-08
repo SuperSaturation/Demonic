@@ -2,13 +2,13 @@
   "_fv": 13,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "leather123123123",
-    "customModelName": "book112312323:default",
-    "name": "Book",
+    "renderType": 0,
+    "texture": "slime_ball",
+    "customModelName": "Normal",
+    "name": "Blood Ball",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:DemonicBlocks"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -23,15 +23,10 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "You can close the book by clicking \"shift+rightclick\""
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "Book1RightClickedInAir"
-    }
+    "inventoryStackSize": 64
   }
 }
