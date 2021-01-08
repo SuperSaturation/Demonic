@@ -18,6 +18,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.demonic.item.BookItem;
+import net.mcreator.demonic.item.Book1Item;
 import net.mcreator.demonic.gui.Gui1Gui;
 import net.mcreator.demonic.DemonicModElements;
 
@@ -28,7 +29,7 @@ import io.netty.buffer.Unpooled;
 @DemonicModElements.ModElement.Tag
 public class Book1RightClickedInAirProcedure extends DemonicModElements.ModElement {
 	public Book1RightClickedInAirProcedure(DemonicModElements instance) {
-		super(instance, 10);
+		super(instance, 12);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -62,7 +63,8 @@ public class Book1RightClickedInAirProcedure extends DemonicModElements.ModEleme
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((entity.isSneaking())) {
+		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() == new ItemStack(Book1Item.block, (int) (1)).getItem()) && (entity.isSneaking()))) {
 			if (entity instanceof LivingEntity) {
 				ItemStack _setstack = new ItemStack(BookItem.block, (int) (1));
 				_setstack.setCount((int) 1);
