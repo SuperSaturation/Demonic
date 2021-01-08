@@ -39,7 +39,7 @@ public class Gui1Gui extends DemonicModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public Gui1Gui(DemonicModElements instance) {
-		super(instance, 7);
+		super(instance, 11);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -106,8 +106,8 @@ public class Gui1Gui extends DemonicModElements.ModElement {
 			this.y = container.y;
 			this.z = container.z;
 			this.entity = container.entity;
-			this.xSize = 175;
-			this.ySize = 166;
+			this.xSize = 1;
+			this.ySize = 1;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("demonic:textures/gui_1.png");
 		@Override
@@ -124,6 +124,8 @@ public class Gui1Gui extends DemonicModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("demonic:textures/12312312312312312asdasdasd.png"));
+			this.blit(this.guiLeft + -63, this.guiTop + -84, 0, 0, 133, 164, 133, 164);
 		}
 
 		@Override

@@ -27,7 +27,7 @@ public class Book1Item extends DemonicModElements.ModElement {
 	@ObjectHolder("demonic:book_1")
 	public static final Item block = null;
 	public Book1Item(DemonicModElements instance) {
-		super(instance, 5);
+		super(instance, 9);
 	}
 
 	@Override

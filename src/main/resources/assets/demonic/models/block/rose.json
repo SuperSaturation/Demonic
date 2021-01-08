@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "demonic:blocks/poppy_",
+    "particle": "demonic:blocks/poppy_"
+  }
+}

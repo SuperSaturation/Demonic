@@ -10,7 +10,9 @@
   "item.demonic.blood_bottle_3": "Blood Bottle",
   "block.demonic.torf": "Torf",
   "item.demonic.iron_knife": "Iron Knife",
-  "item.demonic.book_1": "Book 1",
+  "item.demonic.book_1": "Book",
   "item.demonic.book": "Book",
-  "itemGroup.tabdemonic_blocks": "Demonic Blocks"
+  "block.demonic.blood_rose": "Blood Rose",
+  "itemGroup.tabdemonic_blocks": "Demonic",
+  "block.demonic.rose": "Rose"
 }
