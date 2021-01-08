@@ -11,7 +11,6 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
@@ -21,6 +20,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.demonic.procedures.IronKnifeRightClickedInAirProcedure;
+import net.mcreator.demonic.itemgroup.DemonicBlocksItemGroup;
 import net.mcreator.demonic.DemonicModElements;
 
 import java.util.Map;
@@ -33,7 +33,7 @@ public class IronKnifeItem extends DemonicModElements.ModElement {
 	@ObjectHolder("demonic:iron_knife")
 	public static final Item block = null;
 	public IronKnifeItem(DemonicModElements instance) {
-		super(instance, 18);
+		super(instance, 2);
 	}
 
 	@Override
@@ -76,7 +76,7 @@ public class IronKnifeItem extends DemonicModElements.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(100));
+			super(new Item.Properties().group(DemonicBlocksItemGroup.tab).maxDamage(100));
 		}
 
 		@Override

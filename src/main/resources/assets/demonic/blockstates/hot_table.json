@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "demonic:block/hot_table"
+    },
+    "facing=east": {
+      "model": "demonic:block/hot_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "demonic:block/hot_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "demonic:block/hot_table",
+      "y": 270
+    }
+  }
+}

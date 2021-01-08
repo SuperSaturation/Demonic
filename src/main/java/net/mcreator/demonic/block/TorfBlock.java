@@ -23,7 +23,7 @@ public class TorfBlock extends DemonicModElements.ModElement {
 	@ObjectHolder("demonic:torf")
 	public static final Block block = null;
 	public TorfBlock(DemonicModElements instance) {
-		super(instance, 2);
+		super(instance, 7);
 	}
 
 	@Override

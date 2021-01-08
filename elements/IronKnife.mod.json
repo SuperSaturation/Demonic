@@ -8,7 +8,7 @@
     "name": "Iron Knife",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:DemonicBlocks"
     },
     "toolType": "Special",
     "harvestLevel": 1,

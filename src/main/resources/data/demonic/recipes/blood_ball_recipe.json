@@ -1,0 +1,13 @@
+{
+  "group": "demonic",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demonic:blood_bottle_5"
+    }
+  ],
+  "result": {
+    "item": "demonic:blood_ball",
+    "count": 1
+  }
+}
