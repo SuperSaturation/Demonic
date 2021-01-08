@@ -306,9 +306,9 @@
       "item.demonic.blood_bottle_3": "Blood Bottle",
       "block.demonic.torf": "Torf",
       "item.demonic.iron_knife": "Iron Knife",
-      "item.demonic.book_1": "Book",
+      "item.demonic.book_1": "Book 1",
       "item.demonic.book": "Book",
-      "itemGroup.tabdemonic_blocks": "Demonic"
+      "itemGroup.tabdemonic_blocks": "Demonic Blocks"
     }
   },
   "workspaceSettings": {

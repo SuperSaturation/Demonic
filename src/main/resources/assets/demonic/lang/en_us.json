@@ -1,7 +1,16 @@
 {
+  "block.demonic.hot_table": "Hot Table",
+  "item.demonic.blood_bottle": "Blood Bottle",
+  "item.demonic.blood_bottle_4": "Blood Bottle",
+  "item.demonic.blood_bottle_5": "Blood Bottle",
+  "item.demonic.blood_ball": "Blood Ball",
+  "item.demonic.blood_bottle_1": "Blood Bottle",
+  "item.demonic.blood_bottle_2": "Blood Bottle",
+  "block.demonic.toxic_wood": "Toxic Wood",
+  "item.demonic.blood_bottle_3": "Blood Bottle",
   "block.demonic.torf": "Torf",
+  "item.demonic.iron_knife": "Iron Knife",
   "item.demonic.book_1": "Book 1",
   "item.demonic.book": "Book",
-  "itemGroup.tabdemonic_blocks": "Demonic Blocks",
-  "block.demonic.toxic_wood": "Toxic Wood"
+  "itemGroup.tabdemonic_blocks": "Demonic Blocks"
 }

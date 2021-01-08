@@ -16,7 +16,7 @@ public class BloodBallItem extends DemonicModElements.ModElement {
 	@ObjectHolder("demonic:blood_ball")
 	public static final Item block = null;
 	public BloodBallItem(DemonicModElements instance) {
-		super(instance, 21);
+		super(instance, 3);
 	}
 
 	@Override
