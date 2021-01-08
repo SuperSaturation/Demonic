@@ -1,0 +1,7 @@
+{
+  "parent": "demonic:custom/book123",
+  "textures": {
+    "0": "demonic:blocks/pngtree-3d-leather-texture-textureasdasdasd-material-image_1071014",
+    "particle": "demonic:items/pngtree-3d-leather-texture-textureasdasdasd-material-image_1071014"
+  }
+}

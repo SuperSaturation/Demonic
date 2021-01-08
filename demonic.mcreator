@@ -18,6 +18,92 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "torf"
+    },
+    {
+      "name": "DemonicBlocks",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demonic_blocks"
+    },
+    {
+      "name": "Book",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book"
+    },
+    {
+      "name": "Book1",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_1"
+    },
+    {
+      "name": "BookRightClickedInAir",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gui1",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_1"
+    },
+    {
+      "name": "Book1RightClickedInAir",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_1_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -25,6 +111,9 @@
   "language_map": {
     "en_us": {
       "block.demonic.torf": "Torf",
+      "item.demonic.book_1": "Book 1",
+      "item.demonic.book": "Book",
+      "itemGroup.tabdemonic_blocks": "Demonic Blocks",
       "block.demonic.toxic_wood": "Toxic Wood"
     }
   },

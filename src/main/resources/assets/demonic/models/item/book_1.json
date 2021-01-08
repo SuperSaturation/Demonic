@@ -1,0 +1,7 @@
+{
+  "parent": "demonic:custom/book112312323",
+  "textures": {
+    "1": "demonic:blocks/leather123123123",
+    "particle": "demonic:items/leather123123123"
+  }
+}

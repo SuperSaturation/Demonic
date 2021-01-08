@@ -1,4 +1,7 @@
 {
   "block.demonic.torf": "Torf",
+  "item.demonic.book_1": "Book 1",
+  "item.demonic.book": "Book",
+  "itemGroup.tabdemonic_blocks": "Demonic Blocks",
   "block.demonic.toxic_wood": "Toxic Wood"
 }
