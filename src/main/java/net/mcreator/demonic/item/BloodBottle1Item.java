@@ -15,7 +15,7 @@ public class BloodBottle1Item extends DemonicModElements.ModElement {
 	@ObjectHolder("demonic:blood_bottle_1")
 	public static final Item block = null;
 	public BloodBottle1Item(DemonicModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 	}
 
 	@Override

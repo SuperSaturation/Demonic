@@ -3,20 +3,30 @@ package net.mcreator.demonic.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
+import net.minecraft.util.ActionResultType;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.Items;
+import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.demonic.procedures.BloodBottle5RightClickedOnBlockProcedure;
 import net.mcreator.demonic.DemonicModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @DemonicModElements.ModElement.Tag
 public class BloodBottle5Item extends DemonicModElements.ModElement {
 	@ObjectHolder("demonic:blood_bottle_5")
 	public static final Item block = null;
 	public BloodBottle5Item(DemonicModElements instance) {
-		super(instance, 16);
+		super(instance, 17);
 	}
 
 	@Override
@@ -52,6 +62,29 @@ public class BloodBottle5Item extends DemonicModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		public ActionResultType onItemUseFirst(ItemStack stack, ItemUseContext context) {
+			ActionResultType retval = super.onItemUseFirst(stack, context);
+			World world = context.getWorld();
+			BlockPos pos = context.getPos();
+			PlayerEntity entity = context.getPlayer();
+			Direction direction = context.getFace();
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			ItemStack itemstack = context.getItem();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				BloodBottle5RightClickedOnBlockProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 	}
 }

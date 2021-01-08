@@ -289,6 +289,145 @@
           }
         ]
       }
+    },
+    {
+      "name": "Pentagram",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pentagram"
+    },
+    {
+      "name": "BloodBottle5RightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_5_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PentagramUpdateTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pentagram_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rose",
+      "type": "plant",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose"
+    },
+    {
+      "name": "BloodRose",
+      "type": "plant",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_rose"
+    },
+    {
+      "name": "RosePlantRightClicked",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodRoseMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_rose_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -296,6 +435,7 @@
   "language_map": {
     "en_us": {
       "block.demonic.hot_table": "Hot Table",
+      "block.demonic.pentagram": "Pentagram",
       "item.demonic.blood_bottle": "Blood Bottle",
       "item.demonic.blood_bottle_4": "Blood Bottle",
       "item.demonic.blood_bottle_5": "Blood Bottle",
@@ -308,7 +448,9 @@
       "item.demonic.iron_knife": "Iron Knife",
       "item.demonic.book_1": "Book",
       "item.demonic.book": "Book",
-      "itemGroup.tabdemonic_blocks": "Demonic"
+      "block.demonic.blood_rose": "Blood Rose",
+      "itemGroup.tabdemonic_blocks": "Demonic",
+      "block.demonic.rose": "Rose"
     }
   },
   "workspaceSettings": {

@@ -7,13 +7,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.demonic.block.ToxicWoodBlock;
+import net.mcreator.demonic.item.BloodBallItem;
 import net.mcreator.demonic.DemonicModElements;
 
 @DemonicModElements.ModElement.Tag
 public class DemonicBlocksItemGroup extends DemonicModElements.ModElement {
 	public DemonicBlocksItemGroup(DemonicModElements instance) {
-		super(instance, 3);
+		super(instance, 8);
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class DemonicBlocksItemGroup extends DemonicModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ToxicWoodBlock.block, (int) (1));
+				return new ItemStack(BloodBallItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -3,12 +3,23 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 175,
-    "height": 166,
+    "width": 1,
+    "height": 1,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
-    "components": []
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "12312312312312312asdasdasd.png",
+          "use1Xscale": true,
+          "name": "12312312312312312asdasdasd.png",
+          "x": 150,
+          "y": 35
+        }
+      }
+    ]
   }
 }

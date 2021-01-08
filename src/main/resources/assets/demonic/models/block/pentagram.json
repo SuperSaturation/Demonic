@@ -1,0 +1,8 @@
+{
+  "parent": "demonic:custom/model",
+  "textures": {
+    "all": "demonic:blocks/poppy",
+    "particle": "demonic:blocks/poppy",
+    "0": "demonic:blocks/poppy"
+  }
+}
