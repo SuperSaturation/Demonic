@@ -286,7 +286,7 @@ public class IronKnifeRightClickedInAirProcedure extends DemonicModElements.ModE
 			entity.attackEntityFrom(DamageSource.GENERIC, (float) 2);
 			entity.getPersistentData().putDouble("Bloody", ((entity.getPersistentData().getDouble("Bloody")) + 1));
 		}
-		if (((entity.getPersistentData().getDouble("Bloody")) > 10)) {
+		if (((entity.getPersistentData().getDouble("Bloody")) > 12)) {
 			if ((Math.random() < 0.5)) {
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 600, (int) 1, (false), (true)));
