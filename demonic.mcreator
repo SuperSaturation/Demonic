@@ -104,17 +104,122 @@
           }
         ]
       }
+    },
+    {
+      "name": "BloodBottle",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle"
+    },
+    {
+      "name": "BloodBottle1",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_1"
+    },
+    {
+      "name": "BloodBottle2",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_2"
+    },
+    {
+      "name": "BloodBottle3",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_3"
+    },
+    {
+      "name": "BloodBottle4",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_4"
+    },
+    {
+      "name": "BloodBottle5",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_bottle_5"
+    },
+    {
+      "name": "Gui2",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_2"
+    },
+    {
+      "name": "IronKnife",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_knife"
+    },
+    {
+      "name": "IronKnifeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_knife_recipe"
+    },
+    {
+      "name": "IronKnifeRightClickedInAir",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_knife_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.demonic.blood_bottle": "Blood Bottle",
+      "item.demonic.blood_bottle_4": "Blood Bottle",
+      "item.demonic.blood_bottle_5": "Blood Bottle",
+      "item.demonic.blood_bottle_1": "Blood Bottle",
+      "item.demonic.blood_bottle_2": "Blood Bottle",
+      "block.demonic.toxic_wood": "Toxic Wood",
+      "item.demonic.blood_bottle_3": "Blood Bottle",
       "block.demonic.torf": "Torf",
+      "item.demonic.iron_knife": "Iron Knife",
       "item.demonic.book_1": "Book",
       "item.demonic.book": "Book",
-      "itemGroup.tabdemonic_blocks": "Demonic Blocks",
-      "block.demonic.toxic_wood": "Toxic Wood"
+      "itemGroup.tabdemonic_blocks": "Demonic Blocks"
     }
   },
   "workspaceSettings": {
