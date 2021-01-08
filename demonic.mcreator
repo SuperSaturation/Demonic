@@ -202,15 +202,25 @@
           }
         ]
       }
+    },
+    {
+      "name": "BloodBall",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_ball"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.demonic.blood_bottle": "Blood Bottle",
       "item.demonic.blood_bottle_4": "Blood Bottle",
+      "item.demonic.blood_bottle": "Blood Bottle",
       "item.demonic.blood_bottle_5": "Blood Bottle",
+      "item.demonic.blood_ball": "Blood Ball",
       "item.demonic.blood_bottle_1": "Blood Bottle",
       "item.demonic.blood_bottle_2": "Blood Bottle",
       "block.demonic.toxic_wood": "Toxic Wood",
@@ -219,7 +229,7 @@
       "item.demonic.iron_knife": "Iron Knife",
       "item.demonic.book_1": "Book",
       "item.demonic.book": "Book",
-      "itemGroup.tabdemonic_blocks": "Demonic Blocks"
+      "itemGroup.tabdemonic_blocks": "Demonic"
     }
   },
   "workspaceSettings": {
