@@ -430,23 +430,6 @@
       }
     },
     {
-      "name": "SexualBoyOnEntityTickUpdate",
-      "type": "procedure",
-      "sortid": 33,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sexual_boy_on_entity_tick_update",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Otsosi",
       "type": "mob",
       "sortid": 33,
@@ -459,7 +442,7 @@
       "name": "OtsosiOnEntityTickUpdate",
       "type": "procedure",
       "sortid": 33,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "otsosi_on_entity_tick_update",
