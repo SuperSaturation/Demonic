@@ -430,6 +430,15 @@
       }
     },
     {
+      "name": "Otsosi",
+      "type": "mob",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "otsosi"
+    },
+    {
       "name": "OtsosiOnEntityTickUpdate",
       "type": "procedure",
       "sortid": 33,
@@ -445,15 +454,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Otsosi",
-      "type": "mob",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "otsosi"
     }
   ],
   "variable_elements": [],
@@ -462,7 +462,6 @@
     "en_us": {
       "item.demonic.otsosi_spawn_egg": "Otsosi Spawn Egg",
       "block.demonic.hot_table": "Hot Table",
-      "block.demonic.pentagram": "Pentagram",
       "item.demonic.blood_bottle": "Blood Bottle",
       "item.demonic.blood_bottle_4": "Blood Bottle",
       "item.demonic.blood_bottle_5": "Blood Bottle",

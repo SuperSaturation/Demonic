@@ -1,31 +1,11 @@
 package net.mcreator.demonic.procedures;
 
-import net.minecraft.util.Hand;
-import net.minecraft.util.DamageSource;
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.demonic.item.IronKnifeItem;
-import net.mcreator.demonic.item.BloodBottleItem;
-import net.mcreator.demonic.item.BloodBottle5Item;
-import net.mcreator.demonic.item.BloodBottle4Item;
-import net.mcreator.demonic.item.BloodBottle3Item;
-import net.mcreator.demonic.item.BloodBottle2Item;
-import net.mcreator.demonic.item.BloodBottle1Item;
-import net.mcreator.demonic.DemonicModElements;
-
-import java.util.Map;
-import java.util.Collection;
-
 @DemonicModElements.ModElement.Tag
 public class IronKnifeRightClickedInAirProcedure extends DemonicModElements.ModElement {
+
 	public IronKnifeRightClickedInAirProcedure(DemonicModElements instance) {
 		super(instance, 20);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -34,7 +14,9 @@ public class IronKnifeRightClickedInAirProcedure extends DemonicModElements.ModE
 				System.err.println("Failed to load dependency entity for procedure IronKnifeRightClickedInAir!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Items.GLASS_BOTTLE, (int) (1)).getItem()) && (!((new Object() {
 					boolean check(Entity _entity) {
@@ -319,5 +301,7 @@ public class IronKnifeRightClickedInAirProcedure extends DemonicModElements.ModE
 		}.check(entity)))) {
 			entity.getPersistentData().putDouble("Bloody", 0);
 		}
+
 	}
+
 }

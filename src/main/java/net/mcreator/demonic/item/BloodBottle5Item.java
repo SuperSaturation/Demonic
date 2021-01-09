@@ -1,39 +1,24 @@
 
 package net.mcreator.demonic.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
-import net.minecraft.util.ActionResultType;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemUseContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.demonic.procedures.BloodBottle5RightClickedOnBlockProcedure;
-import net.mcreator.demonic.DemonicModElements;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @DemonicModElements.ModElement.Tag
 public class BloodBottle5Item extends DemonicModElements.ModElement {
+
 	@ObjectHolder("demonic:blood_bottle_5")
 	public static final Item block = null;
+
 	public BloodBottle5Item(DemonicModElements instance) {
 		super(instance, 17);
+
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(null).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("blood_bottle_5");
@@ -77,14 +62,18 @@ public class BloodBottle5Item extends DemonicModElements.ModElement {
 			ItemStack itemstack = context.getItem();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
+
 				BloodBottle5RightClickedOnBlockProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
+
 	}
+
 }
