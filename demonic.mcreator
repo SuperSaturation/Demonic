@@ -428,6 +428,23 @@
           }
         ]
       }
+    },
+    {
+      "name": "SexualBoyOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sexual_boy_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -435,6 +452,7 @@
   "language_map": {
     "en_us": {
       "block.demonic.hot_table": "Hot Table",
+      "block.demonic.pentagram": "Pentagram",
       "item.demonic.blood_bottle": "Blood Bottle",
       "item.demonic.blood_bottle_4": "Blood Bottle",
       "item.demonic.blood_bottle_5": "Blood Bottle",
@@ -445,10 +463,10 @@
       "item.demonic.blood_bottle_3": "Blood Bottle",
       "block.demonic.torf": "Torf",
       "item.demonic.iron_knife": "Iron Knife",
-      "item.demonic.book_1": "Book",
+      "item.demonic.book_1": "Book 1",
       "item.demonic.book": "Book",
       "block.demonic.blood_rose": "Blood Rose",
-      "itemGroup.tabdemonic_blocks": "Demonic",
+      "itemGroup.tabdemonic_blocks": "Demonic Blocks",
       "block.demonic.rose": "Rose"
     }
   },
