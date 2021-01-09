@@ -291,13 +291,30 @@
       }
     },
     {
-      "name": "Pentagram",
-      "type": "block",
-      "sortid": 26,
+      "name": "BloodRose",
+      "type": "plant",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pentagram"
+      "registry_name": "blood_rose"
+    },
+    {
+      "name": "BloodRoseMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_rose_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     },
     {
       "name": "BloodBottle5RightClickedOnBlock",
@@ -333,6 +350,15 @@
       }
     },
     {
+      "name": "Rose",
+      "type": "plant",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose"
+    },
+    {
       "name": "PentagramUpdateTick",
       "type": "procedure",
       "sortid": 28,
@@ -362,22 +388,13 @@
       }
     },
     {
-      "name": "Rose",
-      "type": "plant",
-      "sortid": 29,
+      "name": "Pentagram",
+      "type": "block",
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rose"
-    },
-    {
-      "name": "BloodRose",
-      "type": "plant",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_rose"
+      "registry_name": "pentagram"
     },
     {
       "name": "RosePlantRightClicked",
@@ -413,23 +430,6 @@
       }
     },
     {
-      "name": "BloodRoseMobplayerCollidesWithPlant",
-      "type": "procedure",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blood_rose_mobplayer_collides_with_plant",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Otsosi",
       "type": "mob",
       "sortid": 33,
@@ -442,7 +442,7 @@
       "name": "OtsosiOnEntityTickUpdate",
       "type": "procedure",
       "sortid": 33,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "otsosi_on_entity_tick_update",
