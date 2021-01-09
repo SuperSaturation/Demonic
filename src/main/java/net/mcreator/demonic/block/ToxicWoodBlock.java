@@ -29,7 +29,7 @@ public class ToxicWoodBlock extends DemonicModElements.ModElement {
 	@ObjectHolder("demonic:toxic_wood")
 	public static final Block block = null;
 	public ToxicWoodBlock(DemonicModElements instance) {
-		super(instance, 1);
+		super(instance, 6);
 	}
 
 	@Override

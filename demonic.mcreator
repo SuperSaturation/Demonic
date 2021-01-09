@@ -462,6 +462,7 @@
     "en_us": {
       "item.demonic.otsosi_spawn_egg": "Otsosi Spawn Egg",
       "block.demonic.hot_table": "Hot Table",
+      "block.demonic.pentagram": "Pentagram",
       "item.demonic.blood_bottle": "Blood Bottle",
       "item.demonic.blood_bottle_4": "Blood Bottle",
       "item.demonic.blood_bottle_5": "Blood Bottle",
@@ -473,10 +474,10 @@
       "entity.demonic.otsosi": "Otsosi",
       "block.demonic.torf": "Torf",
       "item.demonic.iron_knife": "Iron Knife",
-      "item.demonic.book_1": "Book",
+      "item.demonic.book_1": "Book 1",
       "item.demonic.book": "Book",
       "block.demonic.blood_rose": "Blood Rose",
-      "itemGroup.tabdemonic_blocks": "Demonic",
+      "itemGroup.tabdemonic_blocks": "Demonic Blocks",
       "block.demonic.rose": "Rose"
     }
   },
