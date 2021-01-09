@@ -1,9 +1,9 @@
 package net.mcreator.demonic.procedures;
 
 @DemonicModElements.ModElement.Tag
-public class SexualBoyOnEntityTickUpdateProcedure extends DemonicModElements.ModElement {
+public class OtsosiOnEntityTickUpdateProcedure extends DemonicModElements.ModElement {
 
-	public SexualBoyOnEntityTickUpdateProcedure(DemonicModElements instance) {
+	public OtsosiOnEntityTickUpdateProcedure(DemonicModElements instance) {
 		super(instance, 33);
 
 	}
@@ -11,13 +11,13 @@ public class SexualBoyOnEntityTickUpdateProcedure extends DemonicModElements.Mod
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure SexualBoyOnEntityTickUpdate!");
+				System.err.println("Failed to load dependency entity for procedure OtsosiOnEntityTickUpdate!");
 			return;
 		}
 
 		Entity entity = (Entity) dependencies.get("entity");
 
-		while (((((entity.getMotion().getX()) < 0.3) && ((entity.getMotion().getY()) < 0.3)) && ((entity.getMotion().getZ()) < 0.3))) {
+		if (((((entity.getMotion().getX()) <= 1) && ((entity.getMotion().getY()) <= 1)) && ((entity.getMotion().getZ()) <= 1))) {
 			if (entity instanceof IAnimatedEntity) {
 				new Object() {
 					@OnlyIn(Dist.CLIENT)
