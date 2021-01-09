@@ -428,12 +428,39 @@
           }
         ]
       }
+    },
+    {
+      "name": "OtsosiOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "otsosi_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Otsosi",
+      "type": "mob",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "otsosi"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.demonic.otsosi_spawn_egg": "Otsosi Spawn Egg",
       "block.demonic.hot_table": "Hot Table",
       "block.demonic.pentagram": "Pentagram",
       "item.demonic.blood_bottle": "Blood Bottle",
@@ -444,6 +471,7 @@
       "item.demonic.blood_bottle_2": "Blood Bottle",
       "block.demonic.toxic_wood": "Toxic Wood",
       "item.demonic.blood_bottle_3": "Blood Bottle",
+      "entity.demonic.otsosi": "Otsosi",
       "block.demonic.torf": "Torf",
       "item.demonic.iron_knife": "Iron Knife",
       "item.demonic.book_1": "Book",
