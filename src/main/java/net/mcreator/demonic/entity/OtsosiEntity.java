@@ -42,11 +42,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
-import net.mcreator.demonic.procedures.OtsosiOnEntityTickUpdateProcedure;
 import net.mcreator.demonic.DemonicModElements;
-
-import java.util.Map;
-import java.util.HashMap;
 
 @DemonicModElements.ModElement.Tag
 public class OtsosiEntity extends DemonicModElements.ModElement {
@@ -139,20 +135,6 @@ public class OtsosiEntity extends DemonicModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
-		}
-
-		@Override
-		public void baseTick() {
-			super.baseTick();
-			double x = this.getPosX();
-			double y = this.getPosY();
-			double z = this.getPosZ();
-			Entity entity = this;
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				OtsosiOnEntityTickUpdateProcedure.executeProcedure($_dependencies);
-			}
 		}
 
 		@Override
