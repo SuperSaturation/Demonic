@@ -442,7 +442,7 @@
       "name": "OtsosiOnEntityTickUpdate",
       "type": "procedure",
       "sortid": 33,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "otsosi_on_entity_tick_update",
